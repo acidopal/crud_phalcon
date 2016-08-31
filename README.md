@@ -22,8 +22,12 @@ return new \Phalcon\Config([
 # Learn CRUD Phalcon
 You can 'flying' arround <b>UserController.php</b> to learn more about CRUD in Phalcon. For Documentation I've done to writting this tutorial about How To Make CRUD Phalcon. 
 I'm recommended yo to read my article about Simple make CRUD Phalcon  in : http://acidopal.com/tutorial-phalcon/ 
-
-Thank You
-Regards
-AcidOpal
+<br>
+<br>
+If you have a question you can ask me or discuss on : <br>
+im.acidopal@gmail.com / Discuss on my website http://acidopal.com
+<br>
+Thank You <br>
+Regards <br>
+AcidOpal <br>
 http://acidopal.com/
