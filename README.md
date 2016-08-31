@@ -29,6 +29,5 @@ im.acidopal@gmail.com / Discuss on my website http://acidopal.com
 </br>
 </br>
 Thank You <br>
-Regards <br>
 AcidOpal <br>
 http://acidopal.com/
