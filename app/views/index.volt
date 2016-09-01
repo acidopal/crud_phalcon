@@ -16,11 +16,26 @@
             <div class="inner">
               <h3 class="masthead-brand">CRUD Phalcon</h3>
               <nav>
-                <ul class="nav masthead-nav">
+              <?php
+               if ($this->session->has('auth')){
+               ?>
+               <ul class="nav masthead-nav">
+                  <li><a href="{{url("")}}">Home</a></li>
+                  <li><a href="{{url("signup")}}">Sign Up</a></li>
+                  <li><a href="{{url("user")}}">User</a></li>
+                  <li><a href="{{url("login/logout")}}">Logout</a></li>
+                </ul>
+                <?php
+                 }else{
+                 ?>
+                 <ul class="nav masthead-nav">
                   <li><a href="http://localhost/crud_phalcon">Home</a></li>
                   <li><a href="http://localhost/crud_phalcon/signup">Sign Up</a></li>
                   <li><a href="http://localhost/crud_phalcon/login">Login</a></li>
                 </ul>
+                <?php 
+                }
+              ?>
               </nav>
             </div>
           </div>
@@ -34,7 +49,6 @@
           </div>
         </div>
         </div>
-
         {{ javascript_include('js/bootstrap.min.js') }}
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     </body>
