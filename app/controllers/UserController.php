@@ -6,11 +6,11 @@ class UserController extends \Phalcon\Mvc\Controller
 
     public function indexAction()
     {
-      if ($this->session->has('auth')){
+       if ($this->session->has('auth')){
 
-       }else{
-        $this->response->redirect('login');
-      }
+        }else{
+          $this->response->redirect('login');
+        }
     	$data_user = User::find();
     	$this->view->data_user=$data_user;
     }
