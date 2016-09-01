@@ -29,9 +29,9 @@
                  }else{
                  ?>
                  <ul class="nav masthead-nav">
-                  <li><a href="http://localhost/crud_phalcon">Home</a></li>
-                  <li><a href="http://localhost/crud_phalcon/signup">Sign Up</a></li>
-                  <li><a href="http://localhost/crud_phalcon/login">Login</a></li>
+                  <li><a href="{{url("")}}">Home</a></li>
+                  <li><a href="{{url("signup")}}">Sign Up</a></li>
+                  <li><a href="{{url("login")}}">Login</a></li>
                 </ul>
                 <?php 
                 }
