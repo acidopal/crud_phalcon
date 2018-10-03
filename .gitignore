@@ -1,2 +1,2 @@
-#/cache/*.php
+/cache/*.php
 /config/development/
